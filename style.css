@@ -1,0 +1,136 @@
+/*Home,Gallery,profile(sidebar,header)*/
+
+.sidebar{
+    position:fixed;
+    width:200px;
+    height:100%;
+    background:#333;
+    color:white;
+}
+
+.sidebar h2{
+    text-align:center;
+}
+
+.sidebar a{
+    display:block;
+    color:white;
+    padding:10px;
+    text-decoration:none;
+}
+
+.sidebar a:hover{
+    background:#333;
+}
+
+.header{
+    background:#007bff;
+    color:white;
+    text-align:center;
+    padding:10px;
+}
+
+
+/* main */
+
+.main{
+    margin-left:200px;
+    padding:20px;
+}
+
+/* main(Home) */
+
+.main-home{
+    margin-left:200px;
+    padding:20px;
+}
+
+
+/* main(profile) */
+
+.main-profile{
+    margin-left:200px;
+    padding:20px;
+    text-align:center;
+}
+
+
+/* tables*/
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table, th, td{
+    border:1px solid gray;
+    padding:8px;
+}
+
+/* Parent */
+
+.parent{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+align-items:center;
+flex-direction: row;
+}
+
+/* Box */
+
+.box{
+width:200px;
+height:200px;
+background:#8d99ae;
+display:flex;
+align-items:center;
+justify-content:center;
+color:white;
+font-size:20px;
+margin: 5px;
+}
+
+/* Profile-img */
+
+.profile-img{
+width:150px;
+height:150px;
+border-radius:50%;
+object-fit:cover;
+
+}
+
+
+
+/* Info */
+
+.info{
+max-width:500px;
+margin:auto;
+font-family: Arial, sans-serif;
+
+}
+
+/* Section */
+
+.section{
+display:flex;
+justify-content:space-evenly;
+margin-top:40px;
+text-align:left;
+font-family: Arial, sans-serif;
+}
+
+/* highlight*/
+
+.Highlight{
+background:yellow;
+font-weight:bold;
+}
+
+/* mirror */
+
+.mirror{
+    transform: scaleX(-1);
+}
